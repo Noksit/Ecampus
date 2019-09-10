@@ -1,0 +1,17 @@
+.bandeau-sombre {
+  background-color: #333;
+  color: #fff;
+}
+
+.breadcrumb a {
+  color: $primary;
+}
+
+.breadcrumb .active {
+  border-bottom: 4px solid #fff;
+}
+
+.breadcrumb a:hover {
+  text-decoration: none;
+  color:lighten($primary,30);
+}

@@ -1,0 +1,18 @@
+#bandeau_contact{
+  position           : relative;
+  z-index            : 1;
+  width              : 100%;
+  height             : 330px;
+  background-image   : url('../images/bandeau_contact.jpg') ;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  background-position: 100% 10%;
+}
+
+#content_contact{
+  position: relative;
+  z-index : 2;
+  top     :25%;
+}
+
+

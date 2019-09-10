@@ -1,0 +1,29 @@
+//CAROUSSEL
+.carousel-item {
+  height: 450px;
+  background-image: url('../images/carousel1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.items2 {
+  height: 450px;
+  background-image: url('../images/carousel2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.items3 {
+  height: 450px;
+  background-image: url('../images/carousel3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+//BANDEAU SOUS CAROUSEL
+.bandeau-explicatif-bg{
+  background-color: #f5f5f5;
+}

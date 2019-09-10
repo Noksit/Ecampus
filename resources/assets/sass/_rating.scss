@@ -1,0 +1,23 @@
+
+.star_rating input[type="radio"] {
+  display: none;
+}
+
+.star_rating  label {
+  color: grey;
+  font-size: 2.2em;
+}
+
+.star_rating  .clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.star_rating label:hover,
+.star_rating label:hover ~ label {
+  color: orange;
+}
+
+.star_rating input[type="radio"]:checked ~ label {
+  color: orange;
+}
